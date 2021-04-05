@@ -401,19 +401,20 @@
                 <form action="#" class="user-contact-form" autocomplete="off">
                     <label class="email-input-field">
                         <input type="email" name="user-email" class="email-contact-input" placeholder="E-mail" required />
+                    </label>
                         <button type="submit" class="button-contact-form"> Подписаться
                             <svg class="icone-seng-contact-form" width="24px" height="24px">
                                 <use href="./images/sprite.svg#icon-icon-send"></use>
                             </svg>
                         </button>
-                    </label>
                 </form>
             </div>
         </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-            <button type="button" class="modal-close-button" data-modal-close> <svg class="modal-close-button-icon">
+            <button type="button" class="modal-close-button" data-modal-close> 
+                <svg class="modal-close-button-icon">
                 <use href="./images/sprite.svg#icon-close-black-18dp-2-1"></use>
                 </svg>
             </button>
@@ -452,8 +453,8 @@
                     <textarea name="user-message" class="modal-form-message" placeholder="Введите текст"></textarea>
                 </label>
                 <input type="checkbox" id="user-term" name="user-term" class="modal-form-term visually-hidden">
-                <label for="user-term" class="modal-form-check-desc">Соглашаюсь с рассылкой и принимаю&nbsp;<a href="">Условия
-                        договора</a></label>
+                <label for="user-term" class="modal-form-check-desc">Соглашаюсь с рассылкой и принимаю&nbsp;
+                    <a href="" class="modal-form-check-desc-link link">Условия договора</a></label>
                 <button type="submit" class="modal-form-btn">Отправить</button>
             </form>
             </div>
