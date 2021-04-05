@@ -945,7 +945,7 @@ color: var(--accent-color)
 .modal-form-term:checked + .modal-form-check-desc::before {
   
   background-color: var(--accent-color);
-  background-image: url('../images/icone_check2.png');
+  background-image: url('../images/icone_check.png');
   background-repeat: no-repeat; 
   background-position: center;
   border: none;
