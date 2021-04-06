@@ -632,6 +632,7 @@ img {
   align-items: center;
   letter-spacing: 0.06em;
   color: #ffffff;
+  cursor: pointer;
 }
 
 .icone-seng-contact-form {
